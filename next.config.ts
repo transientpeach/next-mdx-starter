@@ -2,7 +2,7 @@ import { NextConfig } from 'next'
 import createMDX from '@next/mdx'
 
 const nextConfig: NextConfig = {
-  // Configure `pageExtensions` to include markdown and MDX files
+  output: 'export',
   pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
 }
 
